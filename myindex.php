@@ -28,16 +28,17 @@
             <table class="table table-bordered table-striped">
                 <colgroup>
                     <col class="col-xs-1">
-                    <col class="col-xs-7">
-                    <col class="col-xs-2">
+                    <col class="col-xs-4">
+                    <col class="col-xs-5">
                 </colgroup>
                 <thead> 
                     <tr> 
                         <th>ลำดับ</th>
                         <th>เลขที่เอกสาร</th>
-                        <th>วันที่</th>
-                        <th style="text-align: center;">
-                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> เพิ่มข้อมูลใหม่</button>
+                        <th>ชื่อ</th>
+                        <!-- <th>วันที่</th> -->
+                        <th style="text-align: center;">อนุมัติ
+                            <!-- <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> เพิ่มข้อมูลใหม่</button> -->
                         </th>
                         <th>View</th>
                     </tr>
@@ -50,8 +51,8 @@
                     ?>
                     <tr>
                         <td><?=$index?></td>
-                        <td><?=$row["Firstname"]?> </td>
-                        <td><?=$row["Lastname"]?></td>
+                        <td><?=$row["docname"]?></td>
+                        <td><?=$row["Firstname"]?> <?=$row["Lastname"]?></td>
                         <td style="text-align: center;">
                             <a href="edit.php?id=<?=$row["Id"]?>" class="btn btn-primary">
                                 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> อนุมัติ
