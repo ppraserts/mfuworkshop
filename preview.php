@@ -36,7 +36,7 @@ table{
     font-size: 20pt;
 }
 #tbfoot{
-    margin-top:250px;
+    margin-top:80px;
 }
 
 #tbfoot2{
