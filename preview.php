@@ -45,7 +45,7 @@ table{
     text-align:center;
 }
 </style>
-<table style="width:100%;" id="sign">
+<table style="width:70%;" id="sign">
     <tr>
         <td><img src="documents/<?=$row["Filename"]?>" /></td>
     </tr>
