@@ -23,7 +23,7 @@
 </head>
 <body>
     <div class="container">
-        <h1><span class="glyphicon glyphicon-user" aria-hidden="true"></span> เอกสารรอการจ่ายงาน</h1>
+        <h1><span class="glyphicon glyphicon-user" aria-hidden="true"></span> เอกสารรอการจ่ายงานนะจ๊ะ</h1>
         <div class="table-responsive">
             <table class="table table-bordered table-striped">
                 <colgroup>
