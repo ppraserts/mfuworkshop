@@ -64,6 +64,9 @@ table{
                         <input type="checkbox" <?php if($row["Approved"]==0) { echo "checked='checked'"; } ?> > ไม่อนุมัติ
                     </td>
                 </tr>
+                <tr>                     
+                    <td><?=$row["toname"]?></td>
+                </tr>
                 <tr>
                     <td><?=$row["Comment"]?></td>
                 </tr>
